@@ -1,0 +1,25 @@
+:root{
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f5;
+  }
+  
+  h1{
+    color: green;
+  }
+  
+  h2{
+    color: purple;
+  }
+  
+  h4{
+    color: purple;
+  }
+  
+  img{
+    max-width: 400px;
+  }
+
+  .links{
+    text-decoration: none;
+    color: black;
+  }
