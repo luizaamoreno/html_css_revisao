@@ -23,3 +23,45 @@
     text-decoration: none;
     color: black;
   }
+
+  .aulas{
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  span{
+    background-color: #f5f500;
+    padding: 2px;
+    text-decoration:underline;
+  }
+
+  nav{
+    background-color:purple;
+    }
+
+  .ul_nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 10px 30px;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .li_nav{
+    text-decoration: none;
+    color: floralwhite;
+  }
+
+  .li_nav:hover{
+    background-color: floralwhite;
+    padding: 5px;
+    border-radius: 5px;
+    color: purple;
+    transition: 1.5s;
+  }
+
+  footer{
+    background-color: purple;
+    color: floralwhite;
+  }

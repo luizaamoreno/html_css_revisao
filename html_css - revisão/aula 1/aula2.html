@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Revisão HTML e CSS</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="ul_nav">
+                <li><a href="index.html" class="li_nav">Home</a></li>
+                <li><a href="aula1.html" class="li_nav">Aula 1</a></li>
+                <li><a href="aula2.html" class="li_nav">Aula 2</a></li>
+                <li><a href="aula3.html" class="li_nav">Aula 3</a></li>
+                <li><a href="aula4.html" class="li_nav">Aula 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Título da aula de hoje para testar a tag <span>span</span></h2>
+
+    <h3>Site Codepen</h3>
+    <p>O site <a href="https://codepen.io/">Codepen.io</a> pode servir como inspiração para encontrar elementos já com o código disponibilizado para utilizar na nossa página.
+
+
+
+    <main>
+        <h3>Como é trabalhar na Farmácia do HUWC:</h3>
+        <article>
+            <p>Especialmente hoje, estamos falando de um verdadeiro caos. Esse é o assunto do dia, uma vez que um/uma "anônima" fez uma denúncia na ouvidoria do portal gov.br (fala.br) contra uma farmacêutica. <br>
+            Em tese, ela tem um histórico de histeria e grosseria contra os funcionários, o que jamais presenciei. Porém essa denúncia é um fato consumado, com processo no SEI e estamos aguardando atentos as cenas dos próximos capítulos. <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum repudiandae odit nulla delectus sed esse fugit nam similique officiis atque? Culpa quis voluptatum doloremque magni sunt temporibus alias optio rem.</p>
+        </article>
+
+        <h3>Info sobre id e label</h3>
+        <article>
+            Id do input deve ser igual ao for da label.
+        </article>
+    </main>
+
+    <aside>
+        <h3>Tag aside</h3>
+        Esse texto aqui está dentro da tag aside. Para utilizá-la como barra lateral, é necessário colocar os elementos dentro dessa tag e no <span>css</span> ajustar o posicionamento para essa função. 
+    </aside>
+
+    <h4>Setores que já trabalhei no hospital:</h4>
+    <ol>
+        <li>Farmácia Satélite do Centro cirúrgico</li>
+        <li>Farmácia Satélite das Clínicas Médicas</li>
+        <li>Farmácia de Manipulação de Quimioterapia</li>
+        <li><span>Setor de controle de qualidade</span> (é o atual)</li>
+    </ol>
+
+    <h4>Atividades comuns dos setores:</h4>
+    <ul>
+        <li>Fazer pedidos para ULOG e UACE;</li>
+        <li>Fazer controle de estoque;</li>
+        <li>Realizar inventário mensal;</li>
+        <li>Fazer POPs das atividades do setor;</li>
+        <li>Enfermagem como cliente...</li>
+    </ul>
+
+    <h4>Tabela de Setores</h4>
+    <table border="1">
+        <thead>
+            <th>Nome</th>
+            <th>Marca</th>
+            <th>Ano</th>
+            <th>Valor</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Volkswagen</td>
+                <td>Golf</td>
+                <td>2009</td>
+                <td>R$38500</td>
+            </tr>
+            <tr>
+                <td>Fiat</td>
+                <td>Palio</td>
+                <td>2010</td>
+                <td>R$19750</td>
+            </tr>
+            <tr>
+                <td>Honda</td>
+                <td>Civic</td>
+                <td>2012</td>
+                <td>R$61500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">O melhor preço da região.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h4>Como você avalia a qualidade do atendimento da Farmácia?</h4>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="name" placeholder="Digite seu nome..."><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail..."><br><br>
+        <label for="comentario">Deixe seu feedback sobre nosso atendimento:</label><br>
+        <textarea name="comentario" id="comentario" cols="60" rows="10" placeholder="Envie seu comentário..."></textarea><br>
+        <button>Enviar</button>
+    </form>
+    <br>
+
+    <a href="index.html">Retornar à página inicial</a>
+
+    <footer>
+        <label for="newsletter">Fique por dentro das novidades:</label>
+        <input type="email" name="newsletter" id="newsletter" placeholder="digite seu e-mail"> 
+        <button>Enviar</button>
+
+    </footer>
+
+</body>
+
+</html>
