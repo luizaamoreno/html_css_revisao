@@ -1,3 +1,9 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box2;
+}
+
 :root{
     font-family: "Poppins", sans-serif;
     background-color: #f5f5;
@@ -14,10 +20,41 @@
   h4{
     color: purple;
   }
+
+  aside{
+    background-color: rgb(100, 180, 110);
+    width: 50vw;
+    height: 100vh;
+  }
+  
+  .aside_li{
+    text-decoration: none;
+  }
   
   img{
     max-width: 400px;
   }
+
+  .bloco{
+    display: flex;
+    gap: 20px;
+  }
+
+  article{
+    border: 1px solid purple;
+    margin: 10px;
+  }
+
+  main{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  }
+
+.frase{
+  margin: 20px;
+  display: flex;
+}
 
   .links{
     text-decoration: none;
@@ -62,6 +99,10 @@
   }
 
   footer{
+    display: flex;
+    justify-content: center;
     background-color: purple;
     color: floralwhite;
+    padding: 15px;
+    gap: 10px;
   }
